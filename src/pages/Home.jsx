@@ -1,4 +1,4 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import { Buy, Document, User } from "react-iconly";
 import CardButton from "../components/Card.jsx";
 
@@ -11,6 +11,9 @@ export default function MainPage() {
       alignItems="center"
       margin={30}
     >
+      <Typography variant="h4" marginBottom={2}>
+        Welcome to Java X Mart
+      </Typography>
       <Grid
         display="flex"
         container
